@@ -1,1 +1,11 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+body {
+  margin: 0;
+  padding: 30px;
+}
+
+@media screen and (min-width: 1440px) {
+  #navbar header ul {
+    list-style: none;
+  }
+}
+/*# sourceMappingURL=main.css.map */

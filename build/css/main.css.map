@@ -1,8 +1,15 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AIAA,AAAA,IAAI,CAAA;EACA,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,IAAI;CAChB;;AHOD,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,MAAM;EMVpC,AAGQ,OAHD,CACH,MAAM,CAEF,EAAE,CAAA;IACE,UAAU,EAAE,IAAI;GACnB",
     "sources": [
-        "../../scss/main.scss"
+        "../../scss/main.scss",
+        "../../scss/_breakpoints.scss",
+        "../../scss/abstracts/_base.scss",
+        "../../scss/default/_base.scss",
+        "../../scss/default/_general.scss",
+        "../../scss/md-down/_base.scss",
+        "../../scss/lg-up/_base.scss",
+        "../../scss/lg-up/_navbar.scss"
     ],
     "names": [],
     "file": "main.css"
