@@ -4,41 +4,74 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="stylesheet" href="build/css/main.css">
+  <link rel="stylesheet" href="css/hamburger.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Project tracking intro component</title>
 </head>
 <body>
+  <!--Navbar-->
   <section id="navbar">
     <header>
       <div class="logo-container">
         <img src="images/logo.svg">
       </div>
 
+      <!--link navbar-->
       <ul>
         <li><a href="#">PRODUCT</a></li>
         <li><a href="#">FEATURES</a></li>
         <li><a href="#">PRICING</a></li>
-
-        <li><a href="#" class="login-link">LOGIN</a></li>
+        <li class="point"></li>
+        <li><a href="#">LOGIN</a></li>
       </ul>
-    </header>
+      <!--link navbar-->
+
+      <!--hamburger button-->
+      <div class="hamburger-menu">
+        <div class="line-1"></div>
+        <div class="line-2"></div>
+        <div class="line-3"></div>
+      </div>
+       <!--hamburger button-->
+  </header>
+
+    <ul class="mobile-menu">
+      <li><a href="#">PRODUCT</a></li>
+      <li><a href="#">FEATURES</a></li>
+      <li><a href="#">PRICING<br><hr></a></li>
+      <li><a href="#" class="login-link">LOGIN</a></li>
+    </ul>
   </section>
-  Product
-  Features
-  Pricing
-  Login
+  <!--Navbar-->
 
-  New
-  Monograph Dashboard
+  <div class="container-box">
+    <div class="box"></div>
+  </div>
 
-  Powerful insights into your team
-  Project planning and time tracking for agile teams
-
-  Schedule a demo
-  to see a live preview
+  <section id="powerful">
+    <!--caption-->
+    <div class="caption">
+      <p>NEW</p><p> MONOGRAPH DASHBOARD</p>
+      <p>POWERFUL INSIGHTS<br>
+      INTO YOUR TEAM</p>
   
-
+      <p>Project planning and time tracking<br>
+      for agile teams</p>
+  
+      <a class="btn">SCHEDULE A DEMO</a>
+      <p>TO SEE A PREVIEW</p>
+    </div>
+    <!--caption-->
+    
+     <!--image-->
+    <div class="image">
+      <img src="images/illustration-devices.svg">
+    </div>
+    <!--image-->
+  </section>
+  
+<script src="js/main.js"></script>
 </body>
 </html>

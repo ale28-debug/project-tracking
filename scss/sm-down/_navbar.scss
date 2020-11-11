@@ -1,0 +1,55 @@
+#navbar{
+    position: relative;
+
+    header{
+        
+        ul{
+            display: none;
+        }
+    }
+
+    .mobile-menu{
+        display: none;
+        text-align: center;
+        padding: 60px;
+        width: 60%;
+        margin: 0 auto;
+        box-shadow: 5px 5px 5px #e6e6e6;
+        border-radius: 5px;
+        border: 1px solid #e6e6e6;
+        position: absolute;
+        top: 70px;
+        background: #fff;
+
+
+        li{
+            list-style: none;
+            padding: 0 0 10px 0;
+
+            a{
+                text-decoration: none;
+                font-size: 24px;
+                color: $first-button-color;
+                font-family: $font-1;
+                font-weight: $font-weight-1;
+
+                
+            }
+
+            &:nth-child(3){
+                a{
+                    hr{
+                        width: 150px;
+                        border: 1px solid #e6e6e6;
+                    }
+                }
+            }
+
+            .login-link{
+                color: $navbar-link;
+                font-weight: $font-weight-1;
+            }
+        }
+    }
+
+}

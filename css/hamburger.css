@@ -1,0 +1,32 @@
+.hamburger-menu{
+    display: inline-block;
+    cursor: pointer;
+    float: right;
+    padding: 3px 0 0 0;
+}
+
+.line-1, .line-2, .line-3{
+    width: 30px;
+    height: 3px;
+    background-color: hsl(231, 7%, 65%);
+    margin: 4px 0;
+    transition: 0.4s;
+    border-radius: 20px;
+}
+
+/* Rotazione prima linea */
+.change .line-1{
+    
+    transform: rotate(-45deg) translate(-5px, 5px);
+}
+
+/* Dissolvenza seconda linea */
+.change .line-2{
+        opacity: 0;
+}
+
+/* Rotazione ultima linea */
+.change .line-3{
+    transform: rotate(45deg) translate(-5px, -5px);
+}
+

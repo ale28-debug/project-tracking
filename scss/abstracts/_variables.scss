@@ -1,5 +1,20 @@
+/************************
+FONT
+************************/
+
 $font-1: 'Barlow Condensed', sans-serif; // Headings, Call to actions, navigation
 $font-2: 'Barlow', sans-serif; // Body
 
 $font-weight-1: 700; // per $font-1
 $font-weight-2: 400; // per Body
+
+
+/************************
+COLORS
+*************************/
+$second-button-color: hsl(0, 100%, 68%);
+
+$first-button-color: hsl(230, 29%, 20%);
+$navbar-link:  hsl(230, 11%, 40%);
+$last-link: hsl(231, 7%, 65%);
+$background-img: hsl(207, 33%, 95%);
